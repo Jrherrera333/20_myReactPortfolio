@@ -1,0 +1,27 @@
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Ariel, sans-serif;
+}
+
+.profile-image {
+    max-width: 200px;
+    border: 2px solid #333;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+

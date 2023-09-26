@@ -1,9 +1,9 @@
-// Bringing in the required import from 'react-router-dom'
+import React from 'react';
+import Portfolio from './Portfolio';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
       <Nav />
@@ -11,6 +11,12 @@ function App() {
         <Outlet />
       </main>
     </>
+
+    /* <div className="App">
+    <h1>My Portfolio</h1>
+    <Portfolio />
+    </div> */
+
   );
 }
 

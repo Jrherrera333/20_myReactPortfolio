@@ -5,12 +5,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App';
-import Error from './pages/Error';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
+import Portfolio from './Portfolio';
+import Resume from './Resume';
+// import Error from './pages/Error';
+// import Home from './pages/Home';
+// import Contact from './pages/Contact';
+// import About from './pages/About';
+// import Blog from './pages/Blog';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -21,24 +22,24 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
-        element: <About />,
+        element: <Portfolio />,
       },
       {
         path: '/Portfolio',
-        element: <Portfolio />,
+        element: <Portfolio />
       },
       {
         path: '/Resume',
         element: <Resume />,
       },
-      {
-        path: '/Contact',
-        element: <Contact />,
-      },
+      // {
+      //   path: '/Blog',
+      //   element: <Blog />,
+      // },
+      // {
+      //   path: '/Contact',
+      //   element: <Contact />,
+      // },
     ],
   },
 ]);

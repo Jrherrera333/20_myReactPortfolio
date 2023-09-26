@@ -1,0 +1,25 @@
+/* Portfolio.css */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100px;
+    height: auto;
+}
+
+.project p {
+    white-space: pre-line /* Allow text to wrap */;
+}
+
