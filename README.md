@@ -10,6 +10,8 @@ Project is created with:
 - React.jsx
 - Javascript
 - Node.js
+- Html
+- Css
 
 [Click here to see my React portfolio on the web](https://venerable-belekoy-b69bd2.netlify.app/)
 
