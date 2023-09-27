@@ -14,8 +14,8 @@ const projects = [
     title: 'Pokemon API',
     description: 'In This application you can see the weather according to the latitude and longitude/',
     image: 'project2.png',
-    projectUrl: '',
-    githubUrl: ''
+    projectUrl: 'https://jrherrera333.github.io/project1/',
+    githubUrl: 'https://github.com/Jrherrera333/project1'
   },
   {
     title: 'First Quiz',

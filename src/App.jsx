@@ -1,22 +1,19 @@
 import React from 'react';
-import Portfolio from './Portfolio';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
+import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
     <>
+      <Header />
       <Nav />
       <main className="mx-3">
         <Outlet />
       </main>
+      <Footer />
     </>
-
-    /* <div className="App">
-    <h1>My Portfolio</h1>
-    <Portfolio />
-    </div> */
-
   );
 }
 

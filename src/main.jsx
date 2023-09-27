@@ -7,11 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
-// import Error from './pages/Error';
-// import Home from './pages/Home';
-// import Contact from './pages/Contact';
-// import About from './pages/About';
-// import Blog from './pages/Blog';
+// import Header from './Header';
+// import Footer from './Footer';
+
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -33,8 +31,12 @@ const router = createBrowserRouter([
         element: <Resume />,
       },
       // {
-      //   path: '/Blog',
-      //   element: <Blog />,
+      //   path: '/Home',
+      //   element: <Home />,
+      // },
+      // {
+      //   path: '/About',
+      //   element: <About />,
       // },
       // {
       //   path: '/Contact',
